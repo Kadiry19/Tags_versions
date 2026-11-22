@@ -29,5 +29,5 @@ test('inscription puis connexion @account @signup @login', async ({ page }) => {
 
   // await test.step('Vérifier l’accès au compte', async () => {
   //   await expect(pages.myAccount.yourAccountTitle).toBeVisible();
-  });
+  //});
 });
