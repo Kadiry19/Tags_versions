@@ -12,7 +12,7 @@ test('inscription puis connexion @account @signup @login', async ({ page }) => {
     await acceptCookies(page);
   });
 
-  await test.step('Créer un compte', async () => {
+  await test.step('Créer  un compte', async () => {
     await pages.home.header.signUpLink.click();
     await pages.signUp.firstNameField.fill(userData.name);
     await pages.signUp.emailField.fill(userData.email);
