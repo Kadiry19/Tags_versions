@@ -8,7 +8,7 @@ test('inscription puis connexion @account @signup @login', async ({ page }) => {
   const pages = new PageManager(page);
 
   await test.step('Ouvrir le site et accepter les cookies', async () => {
-    await AllerSur(page, userData.url);
+    await AllerSur(page, '/');// userData.url
     await acceptCookies(page);
   });
 
