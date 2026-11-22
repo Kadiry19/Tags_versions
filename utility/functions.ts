@@ -1,7 +1,7 @@
 // utility/functions_global.ts
 import {  Page, Locator  } from '@playwright/test';
 
-export async function AllerSur(page: Page, path: string): Promise<void> {
+export async function AllerSur(page: Page, path: string): Promise<void> { 
   await page.goto(path);
 }
 
